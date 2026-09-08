@@ -1,0 +1,13 @@
+When generating a Git commit message, use Conventional Commits.
+
+Format:
+<type>: <description>
+
+Types: feat, fix, style, refactor, docs, chore, perf, test, ci, build
+
+Rules:
+- One short subject line, imperative mood, under 72 characters
+- No period at the end of the subject
+- Do not write a prose paragraph summarizing every file
+- Add a body only if the change is non-obvious
+- Prefer feat for new UI/content, style for CSS-only tweaks, refactor for no-behavior changes, fix for bug fixes

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import heroImg from '../assets/hero.png'
-import viteLogo from '../assets/vite.svg'
-import vueLogo from '../assets/vue.svg'
+import { ref } from "vue";
+import heroImg from "../assets/hero.png";
+import viteLogo from "../assets/vite.svg";
+import vueLogo from "../assets/vue.svg";
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -15,7 +15,15 @@ const count = ref(0)
       <img :src="viteLogo" class="vite" alt="Vite logo" />
     </div>
     <div>
-      <h1>Get started</h1>
+      <h1>Get started let's gooo go ga go ga go</h1>
+      <figure class="giphy">
+        <img
+          src="https://i.giphy.com/IKN3aJWc1mPo4AjVed.gif"
+          alt="Looking Good Look At Me GIF from HBO Max"
+          width="480"
+          height="270"
+        />
+      </figure>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
     <button type="button" class="counter" @click="count++">
